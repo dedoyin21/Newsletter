@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(27, 27, 49);
+    margin: 5rem;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    Font-size: 16px;
+    color: rgb(27, 27, 49);
+}
+
+#head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgb(27, 27, 49);
+}
+
+.image{
+    position: absolute;
+    left: 31rem;
+    top: -35px;
+    z-index: -1;
+    order: 1;
+    width: 20rem;
+}
+
+.content1{
+   margin-top: 2.7rem;
+   scale: 0.9;
+   margin-left: -10px;
+}
+.container{
+    background-color: white;
+    border: 2px solid rgb(29, 24, 24);
+    position: absolute;
+    z-index: -1;
+    order: 1;
+    left: 18rem;
+    top: 5rem;
+    padding: 0 21rem 3rem 2rem;
+    border-radius: 20px;
+}
+
+.mybutton{
+    background-color: rgb(27, 27, 49);
+    padding: 1.2rem 8rem 1.2rem 8rem;
+    border-radius: 10px;
+    margin: 30px 15px 0 -0.4rem; 
+    color: white;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border: 1px lightgray;
+}
+.mybutton:hover{opacity: 1;
+    background-image: linear-gradient(to right, rgb(252, 118, 118), rgb(245, 108, 16));
+    box-shadow: 10px 10px;
+    box-shadow: rgb(245, 108, 16);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+label#email{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(27, 27, 49); 
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+#email1{
+    padding: 18px 17rem 15px 15px;
+    border-radius: 10px;
+    font-weight: 100;
+    margin-top: 0.5rem;
+}
+.content{
+    margin-bottom: 2.5rem;
+}
+
+h1{
+    letter-spacing: 5px;
+    word-spacing: 0.5rem;
+    font-size: 3rem;
+}
